@@ -1,7 +1,9 @@
 mas hello_world {
-    agent hello_world_agent
+    agent user
+    agent observer
+
+    // agent user_solution
 
     asl-path: "src/main/jason"
     java-path: "src/main/cartago"
-    org-path: "src/main/moise"
 }
