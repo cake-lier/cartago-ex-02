@@ -1,18 +1,13 @@
-# JaCaMo Template
+# JaCaMo by exercises — Exercise 02 — Action Failure
 
-A template repository for creating new JaCaMo-based applications.
+This exercise is a simple variation of the previous one, to show action failure. 
+As in the previous case, two agents create, use and observe a shared artifact,
+but in this case it's a "bounded" counter.
+This means that it should be initialized with a value and, when invoking the "inc" operation,
+after reaching the maximum value a failure should be generated.
+The "user" agent must create a "BoundedCounter"
+and try to increment it past its limit: as soon as the maximum value is reached, a repairing plan must be executed.
 
-## What?
+## Solution
 
-Exactly what the title says,
-this is a template repository to create hassle-free JaCaMo applications without starting from scratch.
-You can adjust the "config.jcm" file as you wish to add or remove all the configuration that you need,
-but please **don't** touch the "asl-path", "java-path" and "org-path" properties.
-
-## How to run it?
-
-You can use Gradle to run it,
-either using the Gradle wrapper in the repository or using the Gradle tool installed on your system.
-You don't even need to specify the task name; the default one will launch your application.
-But if you really need to know it, for example, for running it after pressing the "play" button on your preferred IDE,
-add the **run** task to your configurations and see the magic happen!
+All solution files are marked with the "solution" suffix, don't open them before solving the exercise!
