@@ -1,7 +1,7 @@
 !create_and_use.
 
 +!create_and_use : true <-
-    makeArtifact("c0", "BoundedCounter", [10], CounterId);
+    makeArtifact("c0", "io.github.cakelier.BoundedCounterSolution", [10], CounterId);
     .wait(1000);
     for (.range(_, 0, 10)) {
         inc;

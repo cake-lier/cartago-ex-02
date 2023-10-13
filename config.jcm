@@ -1,4 +1,4 @@
-mas hello_world {
+mas exercise_02 {
     agent user
     agent observer
 
