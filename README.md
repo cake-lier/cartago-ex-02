@@ -1,4 +1,4 @@
-# JaCaMo by exercises — Exercise 02 — Action Failure
+# CArtAgO by exercises — Exercise 02 — Action Failure
 
 This exercise is a simple variation of the previous one, to show action failure. 
 As in the previous case, two agents create, use and observe a shared artifact,
